@@ -1,7 +1,7 @@
-# nuSkin
+# nuSkin Project
 nuSkin project base directory structure 
 
-Rent-A-Center Associate Web Portal
+nuSkin Project Web Portal
 ==================================
 
 ## Index
