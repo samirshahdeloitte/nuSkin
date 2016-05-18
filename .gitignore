@@ -1,0 +1,8 @@
+.DS_Store
+*.sublime-*
+.idea
+README.html
+
+node_modules
+/build
+/packed
