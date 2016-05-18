@@ -1,7 +1,6 @@
-# nuSkin Project
+# nuSkin Project Web Portal
 nuSkin project base directory structure 
 
-nuSkin Project Web Portal
 ==================================
 
 ## Index
