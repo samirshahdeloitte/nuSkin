@@ -2,6 +2,7 @@
 *.sublime-*
 .idea
 README.html
+.project
 
 node_modules
 /build
