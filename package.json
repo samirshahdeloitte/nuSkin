@@ -14,7 +14,7 @@
     "nuSkin"
   ],
   "author": "Samir Shah <samirshah1187@gmail.com> (http://www.samirshah.co/)",
-  "dependencies": {
+  "devDependencies": {
     "browser-sync": "2.12.8",
     "gulp": "3.9.1",
     "gulp-cached": "1.1.0",
