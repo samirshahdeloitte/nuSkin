@@ -15,8 +15,10 @@
   ],
   "author": "Samir Shah <samirshah1187@gmail.com> (http://www.samirshah.co/)",
   "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
     "browser-sync": "2.12.8",
     "gulp": "3.9.1",
+    "gulp-babel": "6.1.2",
     "gulp-cached": "1.1.0",
     "gulp-changed": "1.3.0",
     "gulp-concat": "2.6.0",
