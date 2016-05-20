@@ -27,6 +27,7 @@ var gulp = require('gulp'),
     concat = require('gulp-concat'),
     runSequence = require('run-sequence'),
     babel = require('gulp-babel'),
+    server = require('gulp-server-livereload'),
 
     paths = {
 	jade : {
@@ -55,6 +56,15 @@ var gulp = require('gulp'),
 	}
 };
 
+gulp.task('serve', function() {
+  gulp.src('./app')
+    .pipe(server({
+      defaultFile: "index.html",
+      livereload: false,
+      directoryListing: false,
+      open: true
+    }));
+});
 
 gulp.task('jade', function() {
 	return gulp.src(paths.jade.src).pipe(plumber()).pipe(cached('jade')).pipe(jadeInheritance({
