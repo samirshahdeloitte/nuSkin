@@ -22,14 +22,14 @@ Run package installation in the console to get all necessary tools (node modules
 $ npm install
 ```
 
-Associate Web Portal uses [gulp](http://gulpjs.com/) for serving and building tasks. It should be used for any additional pre/post-processing tasks that can be accomplished using NodeJS.
+NuSkin application uses [gulp](http://gulpjs.com/) for serving and building tasks. It should be used for any additional pre/post-processing tasks that can be accomplished using NodeJS.
 
 Once you have all the node modules, gulp can then be used to serve the site locally:
 ```bash
 $ gulp serve
 ```
 
-This will serve AWP at http://localhost:3000/ from the **/app** folder. The port can be changed in **gulpfile.js** in the root folder.
+This will serve the project at http://localhost:8000/ from the **/app** folder. The port can be changed in **gulpfile.js** in the root folder.
 
 
 ## Development Standards
